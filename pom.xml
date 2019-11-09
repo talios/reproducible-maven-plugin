@@ -4,7 +4,7 @@
 
   <groupId>com.theoryinpractise</groupId>
   <artifactId>reproducible-maven-plugin</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>reproducablebuild-maven-plugin Maven Mojo</name>
