@@ -4,7 +4,7 @@
 
   <groupId>com.theoryinpractise</groupId>
   <artifactId>reproducible-maven-plugin</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>maven-plugin</packaging>
 
   <name>reproducablebuild-maven-plugin Maven Mojo</name>
@@ -28,7 +28,7 @@
   <scm>
     <connection>scm:git:git@github.com:talios/reproducible-maven-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:talios/reproducible-maven-plugin.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>reproducible-maven-plugin-1.0.1</tag>
     <url>https://github.com/talios/reproducible-maven-plugin</url>
   </scm>
   <distributionManagement>
