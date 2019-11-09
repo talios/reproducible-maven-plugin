@@ -206,9 +206,9 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5.3</version>
         <configuration>
-          <preparationGoals>clean com.theoryinpractise:reproducible-maven-plugin:apply com.theoryinpractise:googleformatter-maven-plugin:format tidy:pom install</preparationGoals>
+          <preparationGoals>clean com.theoryinpractise:reproducible-maven-plugin:apply com.theoryinpractise:googleformatter-maven-plugin:format com.github.ekryd.sortpom:sortpom-maven-plugin:sort tidy:pom install</preparationGoals>
           <goals>deploy</goals>
-          <completionGoals>com.theoryinpractise:reproducible-maven-plugin:clear tidy:pom</completionGoals>
+          <completionGoals>com.theoryinpractise:reproducible-maven-plugin:clear com.github.ekryd.sortpom:sortpom-maven-plugin:sort tidy:pom</completionGoals>
           <pushChanges>false</pushChanges>
           <localCheckout>true</localCheckout>
           <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
