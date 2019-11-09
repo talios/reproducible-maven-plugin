@@ -21,14 +21,14 @@ When applied, any pom in the current maven session will be rewritten to include 
       <artifactId>reproducible-maven-plugin</artifactId>
       <version>1.0.1</version>
     </plugin>
-    
+
     <plugin>
       <artifactId>maven-release-plugin</artifactId>
       <version>2.5.3</version>
       <configuration>
         <preparationGoals>clean com.theoryinpractise:reproducible-maven-plugin:apply install
   </preparationGoals>
-        <compleationGoals>com.theoryinpractise:reproducible-maven-plugin:clear</compleationGoals>
+        <completionGoals>com.theoryinpractise:reproducible-maven-plugin:clear</completionGoals>
         <goals>deploy</goals>
       </configuration>
     </plugin>
